@@ -1,0 +1,14 @@
+{
+    "name": "ckhampus/wordpress-boilerplate",
+    "description": "Boilerplate for WordPress sites.",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Cristian Hampus",
+            "email": "contact@cristianhampus.se"
+        }
+    ],
+    "require": {
+
+    }
+}
