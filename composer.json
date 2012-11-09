@@ -14,7 +14,7 @@
         "wordpress/twentytwelve": "1.0.0"
     },
     "require-dev": {
-        "queensbridge/wordpress-tests": "*"
+        "queensbridge/wordpress-tests": "dev-develop"
     },
     "repositories": [
         {
