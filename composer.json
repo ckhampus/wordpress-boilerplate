@@ -10,14 +10,19 @@
     ],
     "require": {
         "queensbridge/composer-installers": "1.0.0",
-        "queensbridge/wordpress-tests": "*",
         "wordpress/wordpress": "3.4.*",
         "wordpress/twentytwelve": "1.0.0"
+    },
+    "require-dev": {
+        "queensbridge/wordpress-tests": "*"
     },
     "repositories": [
         {
             "type": "composer",
-            "url": "http://ckhampus.github.com/composer-repository"
+            "url": "http://packages.cristianhampus.se"
         }
-    ]
+    ],
+    "config": {
+        "bin-dir": "bin/"
+    }
 }

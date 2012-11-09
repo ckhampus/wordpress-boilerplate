@@ -1,6 +1,89 @@
 {
-    "hash": "be67ab81fe7933f1e5ca7e9b51f72bd4",
+    "hash": "cd7df014a8d9fb5454eb579db18b1776",
     "packages": [
+        {
+            "name": "queensbridge/composer-installers",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ckhampus/composer-installers",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/ckhampus/composer-installers/zipball/1.0.0",
+                "reference": "1.0.0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.8",
+                "composer/composer": "1.0.x-dev",
+                "fabpot/php-cs-fixer": "dev-master"
+            },
+            "time": "2012-10-24 05:40:37",
+            "type": "composer-installer",
+            "extra": {
+                "class": "Queensbridge\\Composer\\WordPressInstaller"
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Queensbridge\\Composer": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/ckhampus/composer-installers/tree/master",
+                "issues": "https://github.com/ckhampus/composer-installers/issues"
+            }
+        },
+        {
+            "name": "wordpress/twentytwelve",
+            "version": "1.0.0",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/twentytwelve",
+                "reference": "1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/extend/themes/download/twentytwelve.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-theme",
+            "installation-source": "dist",
+            "authors": [
+                {
+                    "name": "WordPress Foundation",
+                    "homepage": "http://wordpress.org"
+                }
+            ]
+        },
+        {
+            "name": "wordpress/wordpress",
+            "version": "3.4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://core.svn.wordpress.org",
+                "reference": "tags/3.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://wordpress.org/wordpress-3.4.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "type": "wordpress-core",
+            "installation-source": "dist",
+            "authors": [
+                {
+                    "name": "WordPress Foundation",
+                    "homepage": "http://wordpress.org"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [
         {
             "name": "behat/mink",
             "version": "v1.4.0",
@@ -70,7 +153,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Behat/MinkBrowserKitDriver/zipball/f2783df62edd22c380fb6f271acd21beb3ef4908",
+                "url": "https://github.com/Behat/MinkBrowserKitDriver/archive/f2783df62edd22c380fb6f271acd21beb3ef4908.zip",
                 "reference": "f2783df62edd22c380fb6f271acd21beb3ef4908",
                 "shasum": ""
             },
@@ -115,7 +198,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Behat/MinkGoutteDriver/zipball/fa0fb4f43361d8d386a8b62a1b82f3ea0a511693",
+                "url": "https://github.com/Behat/MinkGoutteDriver/archive/fa0fb4f43361d8d386a8b62a1b82f3ea0a511693.zip",
                 "reference": "fa0fb4f43361d8d386a8b62a1b82f3ea0a511693",
                 "shasum": ""
             },
@@ -167,7 +250,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Behat/MinkSahiDriver/zipball/b576f8de76aad851a630a49605d12680c8a2db2e",
+                "url": "https://github.com/Behat/MinkSahiDriver/archive/b576f8de76aad851a630a49605d12680c8a2db2e.zip",
                 "reference": "b576f8de76aad851a630a49605d12680c8a2db2e",
                 "shasum": ""
             },
@@ -214,7 +297,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Behat/MinkSelenium2Driver/zipball/0055619fe60116ccaaa636ada71710c16b7e1654",
+                "url": "https://github.com/Behat/MinkSelenium2Driver/archive/0055619fe60116ccaaa636ada71710c16b7e1654.zip",
                 "reference": "0055619fe60116ccaaa636ada71710c16b7e1654",
                 "shasum": ""
             },
@@ -262,7 +345,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/Behat/MinkZombieDriver/zipball/b6b3c402dbab8a234cd685876d2565365d1b0ea8",
+                "url": "https://github.com/Behat/MinkZombieDriver/archive/b6b3c402dbab8a234cd685876d2565365d1b0ea8.zip",
                 "reference": "b6b3c402dbab8a234cd685876d2565365d1b0ea8",
                 "shasum": ""
             },
@@ -354,7 +437,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Goutte/zipball/f2940f9c7c1f409159f5e9f512e575946c5cff48",
+                "url": "https://github.com/fabpot/Goutte/archive/f2940f9c7c1f409159f5e9f512e575946c5cff48.zip",
                 "reference": "f2940f9c7c1f409159f5e9f512e575946c5cff48",
                 "shasum": ""
             },
@@ -529,7 +612,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/instaclick/php-webdriver/zipball/v1.0.8",
+                "url": "https://github.com/instaclick/php-webdriver/archive/v1.0.8.zip",
                 "reference": "v1.0.8",
                 "shasum": ""
             },
@@ -614,41 +697,6 @@
             ]
         },
         {
-            "name": "queensbridge/composer-installers",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ckhampus/composer-installers",
-                "reference": "1.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/ckhampus/composer-installers/zipball/1.0.0",
-                "reference": "1.0.0",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.8",
-                "composer/composer": "1.0.x-dev",
-                "fabpot/php-cs-fixer": "dev-master"
-            },
-            "time": "2012-10-24 05:40:37",
-            "type": "composer-installer",
-            "extra": {
-                "class": "Queensbridge\\Composer\\WordPressInstaller"
-            },
-            "installation-source": "source",
-            "autoload": {
-                "psr-0": {
-                    "Queensbridge\\Composer": "src/"
-                }
-            },
-            "support": {
-                "source": "https://github.com/ckhampus/composer-installers/tree/master",
-                "issues": "https://github.com/ckhampus/composer-installers/issues"
-            }
-        },
-        {
             "name": "queensbridge/wordpress-tests",
             "version": "dev-master",
             "source": {
@@ -704,12 +752,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/BrowserKit",
-                "reference": "32e43b5287c3f5379c1470c5dd755fcf5f625d3d"
+                "reference": "eff7eff62a8bccbe7998ecbde4d612bb8da963ff"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/BrowserKit/zipball/32e43b5287c3f5379c1470c5dd755fcf5f625d3d",
-                "reference": "32e43b5287c3f5379c1470c5dd755fcf5f625d3d",
+                "url": "https://github.com/symfony/BrowserKit/archive/eff7eff62a8bccbe7998ecbde4d612bb8da963ff.zip",
+                "reference": "eff7eff62a8bccbe7998ecbde4d612bb8da963ff",
                 "shasum": ""
             },
             "require": {
@@ -723,7 +771,7 @@
             "suggest": {
                 "symfony/process": "2.1.*"
             },
-            "time": "1351170710",
+            "time": "1352368308",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -759,18 +807,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/CssSelector",
-                "reference": "02fa0bf05b6db612e008d04184d6408c0599e73b"
+                "reference": "abf8279792230c6685234eb0fa95b0a85e9e9c7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/CssSelector/zipball/02fa0bf05b6db612e008d04184d6408c0599e73b",
-                "reference": "02fa0bf05b6db612e008d04184d6408c0599e73b",
+                "url": "https://github.com/symfony/CssSelector/archive/abf8279792230c6685234eb0fa95b0a85e9e9c7a.zip",
+                "reference": "abf8279792230c6685234eb0fa95b0a85e9e9c7a",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
-            "time": "1349363877",
+            "time": "1352368308",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -806,12 +854,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/DomCrawler",
-                "reference": "68b5a33cd29ef0fec701c494519935599970a72f"
+                "reference": "8fe81036d0f7452c2bf75b6d489f1e646741bf0f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/DomCrawler/zipball/68b5a33cd29ef0fec701c494519935599970a72f",
-                "reference": "68b5a33cd29ef0fec701c494519935599970a72f",
+                "url": "https://github.com/symfony/DomCrawler/archive/8fe81036d0f7452c2bf75b6d489f1e646741bf0f.zip",
+                "reference": "8fe81036d0f7452c2bf75b6d489f1e646741bf0f",
                 "shasum": ""
             },
             "require": {
@@ -823,7 +871,7 @@
             "suggest": {
                 "symfony/css-selector": "2.1.*"
             },
-            "time": "1350594961",
+            "time": "1352368308",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -859,12 +907,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/EventDispatcher",
-                "reference": "fb273317c0505ba657aa3d727530d36ae671fb82"
+                "reference": "b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/EventDispatcher/zipball/fb273317c0505ba657aa3d727530d36ae671fb82",
-                "reference": "fb273317c0505ba657aa3d727530d36ae671fb82",
+                "url": "https://github.com/symfony/EventDispatcher/archive/b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485.zip",
+                "reference": "b5b6807bcc192f3a1c4fba7ef48466ebbd3c4485",
                 "shasum": ""
             },
             "require": {
@@ -877,7 +925,7 @@
                 "symfony/dependency-injection": "2.1.*",
                 "symfony/http-kernel": "2.1.*"
             },
-            "time": "1349363877",
+            "time": "1352368308",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1141,55 +1189,8 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com"
-        },
-        {
-            "name": "wordpress/twentytwelve",
-            "version": "1.0.0",
-            "source": {
-                "type": "svn",
-                "url": "http://themes.svn.wordpress.org/twentytwelve",
-                "reference": "1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://wordpress.org/extend/themes/download/twentytwelve.1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-theme",
-            "installation-source": "dist",
-            "authors": [
-                {
-                    "name": "WordPress Foundation",
-                    "homepage": "http://wordpress.org"
-                }
-            ]
-        },
-        {
-            "name": "wordpress/wordpress",
-            "version": "3.4.2",
-            "source": {
-                "type": "svn",
-                "url": "http://core.svn.wordpress.org",
-                "reference": "tags/3.4.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://wordpress.org/wordpress-3.4.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "type": "wordpress-core",
-            "installation-source": "dist",
-            "authors": [
-                {
-                    "name": "WordPress Foundation",
-                    "homepage": "http://wordpress.org"
-                }
-            ]
         }
     ],
-    "packages-dev": null,
     "aliases": [
 
     ],
