@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "queensbridge/composer-installers": "1.0.0",
+        "queensbridge/composer-installers": "1.1.0",
         "wordpress/wordpress": "3.4.*",
         "wordpress/twentytwelve": "1.0.0"
     },
