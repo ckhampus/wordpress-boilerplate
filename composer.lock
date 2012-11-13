@@ -1,18 +1,18 @@
 {
-    "hash": "7dbe5f1de9de6a4e7e8072b522095e9f",
+    "hash": "d424ef51ee3453a02cae5fbe36d07ad7",
     "packages": [
         {
             "name": "queensbridge/composer-installers",
-            "version": "1.1.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ckhampus/composer-installers",
-                "reference": "1.1.0"
+                "reference": "1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/ckhampus/composer-installers/zipball/1.1.0",
-                "reference": "1.1.0",
+                "url": "https://github.com/ckhampus/composer-installers/zipball/1.2.0",
+                "reference": "1.2.0",
                 "shasum": ""
             },
             "require-dev": {
@@ -20,12 +20,12 @@
                 "composer/composer": "1.0.x-dev",
                 "fabpot/php-cs-fixer": "dev-master"
             },
-            "time": "2012-10-31 09:53:32",
+            "time": "2012-11-13 17:22:46",
             "type": "composer-installer",
             "extra": {
                 "class": [
-                    "Queensbridge\\Composer\\WordPressInstaller",
-                    "Queensbridge\\Composer\\CookbookInstaller"
+                    "Queensbridge\\Composer\\Installers\\WordPressInstaller",
+                    "Queensbridge\\Composer\\Installers\\CookbookInstaller"
                 ]
             },
             "installation-source": "source",
@@ -35,7 +35,7 @@
                 }
             },
             "support": {
-                "source": "https://github.com/ckhampus/composer-installers/tree/1.1.0",
+                "source": "https://github.com/ckhampus/composer-installers/tree/1.2.0",
                 "issues": "https://github.com/ckhampus/composer-installers/issues"
             }
         },

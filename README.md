@@ -1,4 +1,3 @@
-wordpress-boilerplate
-=====================
+# WordPress Boilerplate
 
 Boilerplate for WordPress sites.

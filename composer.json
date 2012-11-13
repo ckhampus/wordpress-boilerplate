@@ -9,12 +9,21 @@
         }
     ],
     "require": {
-        "queensbridge/composer-installers": "1.1.0",
+        "queensbridge/composer-installers": "1.2.*",
         "wordpress/wordpress": "3.4.*",
         "wordpress/twentytwelve": "1.0.0"
     },
     "require-dev": {
         "queensbridge/wordpress-tests": "dev-develop"
+    },
+    "scripts": {
+        "post-package-install": [
+            "Queensbridge\\Composer\\Scripts\\WordPressScriptHandler::moveIndexFile",
+            "Queensbridge\\Composer\\Scripts\\WordPressScriptHandler::addPathToIgnore"
+        ],
+        "post-package-uninstall": [
+            "Queensbridge\\Composer\\Scripts\\WordPressScriptHandler::removePathToIgnore"
+        ]
     },
     "repositories": [
         {
@@ -22,7 +31,11 @@
             "url": "http://packages.cristianhampus.se"
         }
     ],
+    "extra": {
+        "wordpress-dir": "wordpress",
+        "content-dir": "content"
+    },
     "config": {
-        "bin-dir": "bin/"
+        "bin-dir": "bin"
     }
 }
